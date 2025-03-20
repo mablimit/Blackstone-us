@@ -38,12 +38,12 @@ setup(
     packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
     license="Apache",
     install_requires=[
-        "spacy==2.1.8",
+        "spacy==3.8.3",
         "requests", # required for the legislation linker.
         "conllu",
         "numpy",
         "pandas"
         ],
     tests_require=["pytest", "pytest-cov"],
-    python_requires=">=3.6.0",
+    python_requires=">=3.9.12",
 )
